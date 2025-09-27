@@ -1,0 +1,22 @@
+{
+    "logo": "logo.png",
+    "splash": "Join the adventure!",
+    "serverIP": "play.example.com",
+    "version": "Minecraft Server 1.20.2",
+    "copyright": "Copyright Mojang AB. Do not distribute!",
+    "background": "https://assets.badlion.net/blog/minecraft-backgrounds/jungle-lake.webp",
+    "buttons": [
+        { "label": "Join Server", "action": "copyIP" },
+        { "label": "Staff Members", "action": "modal", "target": "staffModal" },
+        { "label": "About", "action": "modal", "target": "aboutModal" },
+        { "label": "Features", "action": "modal", "target": "featuresModal" },
+        { "label": "Contact Us", "action": "modal", "target": "contactModal" }
+    ],
+    "staff": [
+        { "name": "Notch", "avatar": "https://mc-heads.net/avatar/Notch" },
+        { "name": "Jeb_", "avatar": "https://mc-heads.net/avatar/Jeb_" }
+    ],
+    "aboutText": "Welcome to our Minecraft server! Explore, build, and enjoy.",
+    "featuresText": "Survival, Creative, PvP arenas, and more!",
+    "contactText": "Email: support@example.com<br>Discord: discord.gg/example"
+}
